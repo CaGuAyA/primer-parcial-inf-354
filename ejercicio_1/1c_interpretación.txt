@@ -1,0 +1,13 @@
+Interpretación de los resultados:
+
+Media: Representa el valor promedio de la columna. Es útil cuando los datos no están sesgados.
+
+Mediana: Es el valor central de la columna cuando los datos están ordenados. Es resistente a 
+        valores extremos y es útil cuando los datos están sesgados.
+
+Moda: Es el valor que aparece con mayor frecuencia en la columna. Es útil para datos categóricos 
+        o discretos.
+
+Media Geométrica: Es útil cuando los datos están en una escala logarítmica o cuando se desea tener 
+        una medida de tendencia central que sea menos sensible a los valores extremos. Es especialmente 
+        útil para datos positivos que tienen una distribución sesgada.
