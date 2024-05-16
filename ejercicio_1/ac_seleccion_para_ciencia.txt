@@ -1,0 +1,9 @@
+La media es la medida más comúnmente utilizada y es apropiada para datos continuos que no están muy sesgados.
+
+La mediana es preferible cuando los datos están sesgados o contienen valores atípicos, ya que es menos 
+sensible a estos valores.
+
+La moda es útil para datos categóricos o discretos, pero puede no ser relevante para datos continuos.
+
+La media geométrica es útil cuando los datos están en una escala logarítmica o cuando se desea una 
+medida de tendencia central que sea menos sensible a los valores extremos.
