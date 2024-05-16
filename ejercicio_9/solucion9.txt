@@ -1,0 +1,33 @@
+Paso 1: Representación de los cromosomas
+Definir una representación de los individuos: En este caso, cada cromosoma podría ser una lista 
+de movimientos del caballo en el tablero, por ejemplo, codificando los movimientos como pares 
+de coordenadas (x, y).
+Crear una población inicial: Generar una población inicial de cromosomas aleatorios que representen 
+diferentes movimientos posibles del caballo en el tablero.
+
+Paso 2: Evaluación de la aptitud
+Definir la función de aptitud: En este caso, la función de aptitud evaluará qué tan cerca está cada 
+cromosoma de lograr el objetivo, que en este caso sería cubrir todas las casillas del tablero sin repetir ninguna.
+Calcular la aptitud de cada individuo: Para cada cromosoma, calcular la aptitud según la función definida.
+
+Paso 3: Selección
+Seleccionar individuos para reproducción: Utilizar un método de selección, como la ruleta o el torneo, para elegir
+individuos para la reproducción basados en su aptitud. Los individuos con una aptitud más alta tienen una mayor 
+probabilidad de ser seleccionados.
+
+Paso 4: Cruzamiento
+Reproducir individuos seleccionados: Realizar operaciones de cruzamiento entre los individuos seleccionados para 
+producir descendencia. En el caso del problema del caballo en el tablero de ajedrez, podrías utilizar algún método 
+de cruzamiento como el de un solo punto o el de dos puntos.
+
+Paso 5: Mutación
+Aplicar mutaciones: Introducir mutaciones aleatorias en la descendencia generada para mantener la diversidad 
+genética en la población y evitar la convergencia prematura hacia óptimos locales.
+
+Paso 6: Reemplazo
+Actualizar la población: Combinar la población original con la nueva descendencia y seleccionar los individuos
+más aptos para formar la siguiente generación.
+
+Paso 7: Iterar
+Repetir el proceso: Iterar los pasos 2 a 6 durante un número determinado de generaciones o hasta que se alcance 
+un criterio de parada, como un nivel suficientemente alto de aptitud o un número máximo de generaciones.
